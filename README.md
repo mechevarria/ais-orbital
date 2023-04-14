@@ -1,6 +1,6 @@
 # AIS Orbital
 
-Sample analysis of geolocation data that does cleanup and scaling using [pandas](https://pandas.pydata.org/) in [python](https://www.python.org/)
+Sample analysis of geolocation data that does cleanup and scaling using [pandas](https://pandas.pydata.org/) in [python](https://www.python.org/). Source data is not included in this repository
 
 # Requirements
 
@@ -12,4 +12,8 @@ sudo apt -y install python3-pip
 * Install [JupyterLab](https://jupyter.org/) with
 ```bash
 pip install jupyterlab
+```
+* Install additional dependencies
+```bash
+pip install pandas matplotlib geopandas scikit-learn
 ```
